@@ -10,7 +10,7 @@ const navIcons=[
 const Navbar = () => {
   return (
     <header className='w-full'>
-      <nav className='nav'>
+      <nav className='nav flex justify-between items-center m-5'>
         <Link href='/' className='flex items-center gap-1'>
           <Image 
             src="/assets/love.png"
@@ -19,7 +19,7 @@ const Navbar = () => {
             alt='logo'
           />
           <p className='nav-logo'></p>
-          Price <span className='text-primary'>Wise</span>
+          <b>Price</b> <span className='text-green-500 font-bold'>Wise</span>
         </Link>
         <div className='flex items-center gap-5'>
           {navIcons.map((icon)=>(
@@ -29,7 +29,7 @@ const Navbar = () => {
              alt={icon.alt}
              width={28}
              height={28}
-             className='object-obtain'
+             className='object-contain'
             />
           ))}
         </div>
