@@ -15,8 +15,8 @@ const Home = () => {
               />
             </p>
             <h6 className="head-text">
-              Unleash the Power of <br></br>
-              <span className="text-green-500">PriceWise</span>
+              Unleash the Power of 
+              <span className="text-green-500"> Price<br></br>Wise</span>
             </h6>
           </div>
         </div>
