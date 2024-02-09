@@ -10,8 +10,8 @@ const Home = () => {
               <Image
                 src="/assets/arrow-right.png"
                 alt="arrow-right"
-                width={16}
-                height={16}
+                width={15}
+                height={15}
               />
             </p>
             <h6 className="head-text">
